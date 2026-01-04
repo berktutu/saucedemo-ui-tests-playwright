@@ -6,7 +6,7 @@ import { ShoppingCart } from "../page-objects/shoppingCart";
 import {
   CheckoutInformation,
   CheckoutOverview,
-} from "../page-objects/checkOut";
+} from "../page-objects/checkout";
 import { loginAsValidUser } from "../helpers/login-helper";
 import { addFirstItemToCart } from "../helpers/products-helper";
 import { navigateToCart, goToCheckout } from "../helpers/cart-helper";

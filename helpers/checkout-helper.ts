@@ -2,7 +2,7 @@ import { Page } from "@playwright/test";
 import {
   CheckoutInformation,
   CheckoutOverview,
-} from "../page-objects/checkOut";
+} from "../page-objects/checkout";
 import { validUsers, userInformations, links } from "../test-data/testData";
 
 export async function fillValidInformation(page: Page) {
