@@ -1,0 +1,26 @@
+{
+  "name": "saucedemo-ui-tests-playwright",
+  "version": "1.0.0",
+  "description": "This project demonstrates e2e UI test automation of the SauceDemo application using black box testing principles, without access to the application’s internal implementation (white box).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berktutu/saucedemo-ui-tests-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/berktutu/saucedemo-ui-tests-playwright/issues"
+  },
+  "homepage": "https://github.com/berktutu/saucedemo-ui-tests-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
+}
