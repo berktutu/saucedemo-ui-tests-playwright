@@ -7,7 +7,7 @@
 | 1     | Smoke       | TC-LOGIN-01    |
 | 2     | Smoke       | TC-PRODUCTS-01 |
 | 3     | Smoke       | TC-SCART-15    |
-| 4     | Smoke       | TC-CHECKOUT-19 |
+| 4     | Smoke       | TC-CHECKOUT-25 |
 
 ### Test Order
 

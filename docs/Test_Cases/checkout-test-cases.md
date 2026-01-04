@@ -696,7 +696,7 @@
 | Type             | Functional                                              |
 | Priority         | P1                                                      |
 | Preconditions    | User is on Shopping Cart page and has an added product  |
-| Test Data        | N/A                                                     |
+| Test Data        | John / Smith / 60311                                    |
 | Environment      | https://www.saucedemo.com                               |
 
 ---
@@ -734,7 +734,7 @@
 | Type             | Functional                                                          |
 | Priority         | P1                                                                  |
 | Preconditions    | User is on Shopping Cart page and has 2 added products in the cart  |
-| Test Data        | N/A                                                                 |
+| Test Data        | John / Smith / 60311                                                |
 | Environment      | https://www.saucedemo.com                                           |
 
 ---
@@ -772,7 +772,7 @@
 | Type             | Functional                                                                 |
 | Priority         | P1                                                                         |
 | Preconditions    | User is on Shopping Cart page and has an added product                     |
-| Test Data        | N/A                                                                        |
+| Test Data        | John / Smith / 60311                                                       |
 | Environment      | https://www.saucedemo.com                                                  |
 
 ---
@@ -812,7 +812,7 @@
 | Type             | Functional                                               |
 | Priority         | P1                                                       |
 | Preconditions    | User is on Shopping Cart page and has an added product   |
-| Test Data        | N/A                                                      |
+| Test Data        | John / Smith / 60311                                     |
 | Environment      | https://www.saucedemo.com                                |
 
 ---
@@ -850,7 +850,7 @@
 | Type             | Functional                                             |
 | Priority         | P1                                                     |
 | Preconditions    | User is on Shopping Cart page and has an added product |
-| Test Data        | N/A                                                    |
+| Test Data        | John / Smith / 60311                                   |
 | Environment      | https://www.saucedemo.com                              |
 
 ---
@@ -888,7 +888,7 @@
 | Type             | Functional                                             |
 | Priority         | P1                                                     |
 | Preconditions    | User is on Shopping Cart page and has an added product |
-| Test Data        | N/A                                                    |
+| Test Data        | John / Smith / 60311                                   |
 | Environment      | https://www.saucedemo.com                              |
 
 ---
@@ -926,7 +926,7 @@
 | Type             | Functional                                                              |
 | Priority         | P1                                                                      |
 | Preconditions    | User is on Shopping Cart page with all products added from products (6) |
-| Test Data        | N/A                                                                     |
+| Test Data        | John / Smith / 60311                                                    |
 | Environment      | https://www.saucedemo.com                                               |
 
 ---
@@ -964,7 +964,7 @@
 | Type             | Functional                                              |
 | Priority         | P1                                                      |
 | Preconditions    | User is on Shopping Cart page and has an added product  |
-| Test Data        | N/A                                                     |
+| Test Data        | John / Smith / 60311                                    |
 | Environment      | https://www.saucedemo.com                               |
 
 ---
@@ -1002,7 +1002,7 @@
 | Type             | Functional                                                    |
 | Priority         | P1                                                            |
 | Preconditions    | User is on Shopping Cart page and has 2 added products        |
-| Test Data        | N/A                                                           |
+| Test Data        | John / Smith / 60311                                          |
 | Environment      | https://www.saucedemo.com                                     |
 
 ---
@@ -1040,7 +1040,7 @@
 | Type             | Functional                                             |
 | Priority         | P1                                                     |
 | Preconditions    | User is on Shopping Cart page and has an added product |
-| Test Data        | N/A                                                    |
+| Test Data        | John / Smith / 60311                                   |
 | Environment      | https://www.saucedemo.com                              |
 
 ---
@@ -1080,7 +1080,7 @@
 | Type             | Functional                                             |
 | Priority         | P1                                                     |
 | Preconditions    | User is on Shopping Cart page and has an added product |
-| Test Data        | N/A                                                    |
+| Test Data        | John / Smith / 60311                                   |
 | Environment      | https://www.saucedemo.com                              |
 
 ---
@@ -1157,7 +1157,7 @@
 | Type             | Functional                                                 |
 | Priority         | P1                                                         |
 | Preconditions    | User is on Shopping Cart page and has an added product     |
-| Test Data        | N/A                                                        |
+| Test Data        | John / Smith / 60311                                       |
 | Environment      | https://www.saucedemo.com                                  |
 
 ---
@@ -1195,7 +1195,7 @@
 | Type             | Functional                                                 |
 | Priority         | P1                                                         |
 | Preconditions    | User is on Shopping Cart page and has an added product     |
-| Test Data        | N/A                                                        |
+| Test Data        | John / Smith / 60311                                       |
 | Environment      | https://www.saucedemo.com                                  |
 
 ---
@@ -1234,7 +1234,7 @@
 | Type             | Functional                                                                 |
 | Priority         | P3                                                                         |
 | Preconditions    | User is on Shopping Cart page and has an added product                     |
-| Test Data        | N/A                                                                        |
+| Test Data        | John / Smith / 60311                                                       |
 | Environment      | https://www.saucedemo.com                                                  |
 
 ---
