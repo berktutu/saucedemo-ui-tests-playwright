@@ -1,0 +1,59 @@
+# Requirements Traceability Matrix
+
+| Requirement ID | Scenario ID       | Test Case ID                                     | Automated | Status  |
+| -------------- | ----------------- | ------------------------------------------------ | --------- | ------- |
+| REQ-01.1       | TS-01             | TC-LOGIN-01                                      |           | Covered |
+| REQ-01.2       | TS-02             | TC-LOGIN-02,03,04,05,06                          |           | Covered |
+| REQ-01.3       | TS-03             | TC-LOGIN-07,08,09                                |           | Covered |
+| REQ-01.4       | TS-04             | TC-LOGIN-02,03,04,05,06,07,08,09                 |           | Covered |
+| REQ-01.5       | TS-05             | TC-LOGIN-10                                      |           | Covered |
+| REQ-01.6       | TS-06             | TC-LOGIN-11                                      |           | Covered |
+| REQ-02.1       | TS-07             | TC-LOGOUT-01                                     |           | Covered |
+| REQ-02.2       | TS-08             | TC-LOGOUT-01                                     |           | Covered |
+| REQ-02.3       | TS-09             | TC-LOGOUT-02                                     |           | Covered |
+| REQ-03.1       | TS-10             | TC-NAVBAR-01                                     |           | Covered |
+| REQ-03.2       | TS-11             | TC-NAVBAR-01                                     |           | Covered |
+| REQ-03.3       | TS-12             | TC-NAVBAR-02,03                                  |           | Covered |
+| REQ-03.4       | TS-13             | TC-NAVBAR-04                                     |           | Covered |
+| REQ-04.1       | TS-14             | TC-PRODUCTS-01                                   |           | Covered |
+| REQ-04.2       | TS-15             | TC-PRODUCTS-02                                   |           | Covered |
+| REQ-04.3       | TS-16             | TC-PRODUCTS-02                                   |           | Covered |
+| REQ-04.4       | TS-17             | TC-PRODUCTS-03,04,TC-SCART-15,16                 |           | Covered |
+| REQ-04.5       | TS-18             | TC-PRODUCTS-05,06,TC-SCART-17                    |           | Covered |
+| REQ-04.6       | TS-19             | TC-PRODUCTS-07,08,09                             |           | Covered |
+| REQ-05.1       | TS-20             | TC-SORT-01                                       |           | Covered |
+| REQ-05.2       | TS-21             | TC-SORT-02,03                                    |           | Covered |
+| REQ-05.3       | TS-22             | TC-SORT-02,03                                    |           | Covered |
+| REQ-05.4       | TS-23             | TC-SORT-02,04                                    |           | Covered |
+| REQ-05.5       | TS-24             | TC-SORT-02,05                                    |           | Covered |
+| REQ-05.6       | TS-25             | TC-SORT-03,04,05,06,07                           |           | Covered |
+| REQ-06.1       | TS-26             | TC-PDETAIL-01                                    |           | Covered |
+| REQ-06.2       | TS-27             | TC-PDETAIL-02,03                                 |           | Covered |
+| REQ-06.3       | TS-28             | TC-PDETAIL-04,TC-SCART-18                        |           | Covered |
+| REQ-06.4       | TS-29             | TC-PDETAIL-05,TC-SCART-19                        |           | Covered |
+| REQ-06.5       | TS-30             | TC-PDETAIL-02                                    |           | Covered |
+| REQ-06.6       | TS-31             | TC-PDETAIL-06                                    |           | Covered |
+| REQ-06.7       | TS-32             | TC-PDETAIL-07,08                                 |           | Covered |
+| REQ-7.1        | TS-33             | TC-SCART-01,02                                   |           | Covered |
+| REQ-7.2        | TS-34             | TC-SCART-03,04                                   |           | Covered |
+| REQ-7.3        | TS-35             | TC-SCART-05,06,07,08,09,10                       |           | Covered |
+| REQ-7.4        | TS-36             | TC-SCART-12,13                                   |           | Covered |
+| REQ-7.5        | TS-37             | TC-SCART-11                                      |           | Covered |
+| REQ-7.6        | TS-38             | TC-SCART-14,23                                   |           | Covered |
+| REQ-7.7        | TS-39             | TC-SCART-20,21                                   |           | Covered |
+| REQ-7.8        | TS-40             | TC-SCART-22,23                                   |           | Covered |
+| REQ-7.9        | TS-41             | TC-SCART-24,25,26                                |           | Covered |
+| REQ-08.1       | TS-42,43          | TC-CHECKOUT-01,02,03                             |           | Covered |
+| REQ-08.2       | TS-44             | TC-CHECKOUT-04                                   |           | Covered |
+| REQ-08.3       | TS-45             | TC-CHECKOUT-07                                   |           | Covered |
+| REQ-08.4       | TS-46             | TC-CHECKOUT-08,09,10,11,12,13,14,15,16,17        |           | Covered |
+| REQ-08.5       | TS-47             | TC-CHECKOUT-08,09,10,11,12,13,14,15,16,17        |           | Covered |
+| REQ-08.6       | TS-48             | TC-CHECKOUT-05,06,23,24                          |           | Covered |
+| REQ-08.7       | TS-49             | TC-CHECKOUT-18,19,20,21,22                       |           | Covered |
+| REQ-08.8       | TS-50             | TC-CHECKOUT-18,19,20,21,22                       |           | Covered |
+| REQ-08.9       | TS-51             | TC-CHECKOUT-25,26                                |           | Covered |
+| REQ-08.10      | TS-52             | TC-CHECKOUT-25,26                                |           | Covered |
+| REQ-08.11      | TS-53             | TC-CHECKOUT-27                                   |           | Covered |
+| REQ-08.12      | TS-54             | TC-CHECKOUT-28                                   |           | Covered |
+| REQ-08.13      | TS-55             | TC-CHECKOUT-29,30,31                             |           | Covered |
+| REQ-09.1       | TS-56,57,58,59,60 | TC-PRODUCTS-10,TC-SCART-27, TC-CHECKOUT-32,33,34 |           | Covered |
