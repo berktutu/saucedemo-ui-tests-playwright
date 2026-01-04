@@ -1,10 +1,12 @@
-import { Page } from "@playwright/test";
+import { Page, Locator } from "@playwright/test";
 
 export class LoginPage {
   readonly page: Page;
+  readonly errorMsg: Locator;
 
   constructor(page: Page) {
     this.page = page;
+    this.errorMsg = page.getByTestId("error");
   }
 
   async login(username: string, password: string) {

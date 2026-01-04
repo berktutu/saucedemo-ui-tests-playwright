@@ -9,3 +9,12 @@ export async function loginAsValidUser(page: Page) {
     validUsers.standardUser.password
   );
 }
+
+export async function attemptLogin(
+  page: Page,
+  username: string,
+  password: string
+) {
+  const loginPage = new LoginPage(page);
+  await loginPage.login(username, password);
+}
