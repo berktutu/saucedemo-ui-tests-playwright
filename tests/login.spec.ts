@@ -107,18 +107,19 @@ test.describe("Login Tests", () => {
     );
   });
 
-  test.skip("Login with empty username and empty password", async ({
-    page,
-  }) => {
-    await attemptLogin(page, "", "");
+  test.fixme(
+    "Login with empty username and empty password",
+    async ({ page }) => {
+      await attemptLogin(page, "", "");
 
-    const loginPage = new LoginPage(page);
-    await expect(page).toHaveURL(links.mainLink);
-    // The message itself is not from the application. It is to point out the app doesn't show appropriate error message. It only warns about username field being empty. It is not really big problem but might confuse users.
-    await expect(loginPage.errorMsg).toHaveText(
-      errorMessageTexts.emptyFieldsMessage
-    );
-  });
+      const loginPage = new LoginPage(page);
+      await expect(page).toHaveURL(links.mainLink);
+      // The message itself is not from the application. It is to point out the app doesn't show appropriate error message. It only warns about username field being empty. It is not really big problem but might confuse users.
+      await expect(loginPage.errorMsg).toHaveText(
+        errorMessageTexts.emptyFieldsMessage
+      );
+    }
+  );
 
   test("Verify password field masks entered characters", async ({ page }) => {
     const passwordField = page.getByRole("textbox", { name: "Password" });
