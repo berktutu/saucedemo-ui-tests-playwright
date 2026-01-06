@@ -9,7 +9,7 @@ import { attemptLogin } from "../helpers/login-helper";
 import { LoginPage } from "../page-objects/loginPage";
 
 test.beforeEach(async ({ page }) => {
-  await page.goto("https://www.saucedemo.com/");
+  await page.goto(links.mainLink);
 });
 
 test.describe("Login Tests", () => {

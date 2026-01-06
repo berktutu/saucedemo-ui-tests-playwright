@@ -5,7 +5,7 @@ import { openNavMenu, closeNavMenu } from "../helpers/navbar-helper";
 import { links } from "../test-data/testData";
 
 test.beforeEach(async ({ page }) => {
-  await page.goto("https://www.saucedemo.com/");
+  await page.goto(links.mainLink);
   await loginAsValidUser(page);
 });
 

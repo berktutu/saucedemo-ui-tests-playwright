@@ -13,19 +13,16 @@ import {
 } from "../helpers/checkout-helper";
 
 test.beforeEach(async ({ page }) => {
-  await page.goto("https://www.saucedemo.com/");
+  await page.goto(links.mainLink);
+  await loginAsValidUser(page);
 });
 
 test.describe("@smoke Smoke tests", () => {
   test("Login with valid credentials", async ({ page }) => {
-    await loginAsValidUser(page);
-
     await expect(page).toHaveURL(links.productsPageLink);
   });
 
   test("Verify products are displayed on Products page", async ({ page }) => {
-    await loginAsValidUser(page);
-
     const productsPage = new ProductsPage(page);
     await expect(productsPage.products.first()).toBeVisible();
   });
@@ -33,8 +30,6 @@ test.describe("@smoke Smoke tests", () => {
   test("Verify added product from Products page appears in cart", async ({
     page,
   }) => {
-    await loginAsValidUser(page);
-
     await addFirstItemToCart(page);
 
     await navigateToCart(page);
@@ -46,8 +41,6 @@ test.describe("@smoke Smoke tests", () => {
   test("Verify finishing checkout successfully with one product", async ({
     page,
   }) => {
-    await loginAsValidUser(page);
-
     await addFirstItemToCart(page);
 
     await navigateToCart(page);
