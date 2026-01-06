@@ -11,6 +11,10 @@ export class ShoppingCart {
     this.products = page.getByTestId("inventory-item");
   }
 
+  async navigateToCart() {
+    await this.shoppingCartIcon.click();
+  }
+
   async goToCheckout() {
     await this.page.getByRole("button", { name: "Checkout" }).click();
   }

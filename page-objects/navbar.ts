@@ -22,4 +22,12 @@ export class Navbar {
   async logout() {
     await this.logoutOption.click();
   }
+
+  async openNavMenu() {
+    await this.navbarOpenBtn.click();
+  }
+
+  async closeNavMenu() {
+    await this.navbarCloseBtn.click();
+  }
 }

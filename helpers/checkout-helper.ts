@@ -13,13 +13,3 @@ export async function fillValidInformation(page: Page) {
     userInformations.validInfo.postalCode
   );
 }
-
-export async function continueToCheckout(page: Page) {
-  const checkoutInformation = new CheckoutInformation(page);
-  await checkoutInformation.continueCheckout();
-}
-
-export async function finishTheCheckout(page: Page) {
-  const checkoutOverview = new CheckoutOverview(page);
-  await checkoutOverview.finishCheckout();
-}

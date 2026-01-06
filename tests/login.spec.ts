@@ -5,7 +5,6 @@ import {
   links,
   errorMessageTexts,
 } from "../test-data/testData";
-import { attemptLogin } from "../helpers/login-helper";
 import { LoginPage } from "../page-objects/loginPage";
 
 test.beforeEach(async ({ page }) => {
@@ -14,13 +13,12 @@ test.beforeEach(async ({ page }) => {
 
 test.describe("Login Tests", () => {
   test("Login with valid username and invalid password", async ({ page }) => {
-    await attemptLogin(
-      page,
+    const loginPage = new LoginPage(page);
+    await loginPage.attemptLogin(
       validUsers.standardUser.username,
       invalidUsers.invalidStandardUser.password
     );
 
-    const loginPage = new LoginPage(page);
     await expect(page).toHaveURL(links.mainLink);
     await expect(loginPage.errorMsg).toHaveText(
       errorMessageTexts.invalidAttemptMessage
@@ -28,13 +26,12 @@ test.describe("Login Tests", () => {
   });
 
   test("Login with invalid username and valid password", async ({ page }) => {
-    await attemptLogin(
-      page,
+    const loginPage = new LoginPage(page);
+    await loginPage.attemptLogin(
       invalidUsers.invalidStandardUser.username,
       validUsers.standardUser.password
     );
 
-    const loginPage = new LoginPage(page);
     await expect(page).toHaveURL(links.mainLink);
     await expect(loginPage.errorMsg).toHaveText(
       errorMessageTexts.invalidAttemptMessage
@@ -42,13 +39,12 @@ test.describe("Login Tests", () => {
   });
 
   test("Login with invalid username and invalid password", async ({ page }) => {
-    await attemptLogin(
-      page,
+    const loginPage = new LoginPage(page);
+    await loginPage.attemptLogin(
       invalidUsers.invalidStandardUser.username,
       invalidUsers.invalidStandardUser.password
     );
 
-    const loginPage = new LoginPage(page);
     await expect(page).toHaveURL(links.mainLink);
     await expect(loginPage.errorMsg).toHaveText(
       errorMessageTexts.invalidAttemptMessage
@@ -58,13 +54,12 @@ test.describe("Login Tests", () => {
   test("Login with username containing leading and trailing spaces", async ({
     page,
   }) => {
-    await attemptLogin(
-      page,
+    const loginPage = new LoginPage(page);
+    await loginPage.attemptLogin(
       invalidUsers.whiteSpaceStandartUser.username,
       validUsers.standardUser.password
     );
 
-    const loginPage = new LoginPage(page);
     await expect(page).toHaveURL(links.mainLink);
     await expect(loginPage.errorMsg).toHaveText(
       errorMessageTexts.invalidAttemptMessage
@@ -74,13 +69,12 @@ test.describe("Login Tests", () => {
   test("Login with password containing leading and trailing spaces", async ({
     page,
   }) => {
-    await attemptLogin(
-      page,
+    const loginPage = new LoginPage(page);
+    await loginPage.attemptLogin(
       validUsers.standardUser.username,
       invalidUsers.whiteSpaceStandartUser.password
     );
 
-    const loginPage = new LoginPage(page);
     await expect(page).toHaveURL(links.mainLink);
     await expect(loginPage.errorMsg).toHaveText(
       errorMessageTexts.invalidAttemptMessage
@@ -88,9 +82,9 @@ test.describe("Login Tests", () => {
   });
 
   test("Login with empty username and valid password", async ({ page }) => {
-    await attemptLogin(page, "", validUsers.standardUser.password);
-
     const loginPage = new LoginPage(page);
+    await loginPage.attemptLogin("", validUsers.standardUser.password);
+
     await expect(page).toHaveURL(links.mainLink);
     await expect(loginPage.errorMsg).toHaveText(
       errorMessageTexts.emptyUsernameMessage
@@ -98,9 +92,9 @@ test.describe("Login Tests", () => {
   });
 
   test("Login with valid username and empty password", async ({ page }) => {
-    await attemptLogin(page, validUsers.standardUser.username, "");
-
     const loginPage = new LoginPage(page);
+    await loginPage.attemptLogin(validUsers.standardUser.username, "");
+
     await expect(page).toHaveURL(links.mainLink);
     await expect(loginPage.errorMsg).toHaveText(
       errorMessageTexts.emptyPasswordMessage
@@ -110,9 +104,9 @@ test.describe("Login Tests", () => {
   test.fixme(
     "Login with empty username and empty password",
     async ({ page }) => {
-      await attemptLogin(page, "", "");
-
       const loginPage = new LoginPage(page);
+      await loginPage.attemptLogin("", "");
+
       await expect(page).toHaveURL(links.mainLink);
       // The message itself is not from the application. It is to point out the app doesn't show appropriate error message. It only warns about username field being empty. It is not really big problem but might confuse users.
       await expect(loginPage.errorMsg).toHaveText(

@@ -4,17 +4,8 @@ import { validUsers } from "../test-data/testData";
 
 export async function loginAsValidUser(page: Page) {
   const loginPage = new LoginPage(page);
-  await loginPage.login(
+  await loginPage.attemptLogin(
     validUsers.standardUser.username,
     validUsers.standardUser.password
   );
-}
-
-export async function attemptLogin(
-  page: Page,
-  username: string,
-  password: string
-) {
-  const loginPage = new LoginPage(page);
-  await loginPage.login(username, password);
 }

@@ -1,8 +1,7 @@
 import { test, expect } from "@playwright/test";
-import { loginAsValidUser } from "../helpers/login-helper";
 import { Navbar } from "../page-objects/navbar";
-import { openNavMenu, closeNavMenu } from "../helpers/navbar-helper";
 import { links } from "../test-data/testData";
+import { loginAsValidUser } from "../helpers/login-helper";
 
 test.beforeEach(async ({ page }) => {
   await page.goto(links.mainLink);
@@ -11,9 +10,9 @@ test.beforeEach(async ({ page }) => {
 
 test.describe("Logout Tests", () => {
   test("Logout from the application", async ({ page }) => {
-    await openNavMenu(page);
-
     const navbar = new Navbar(page);
+    await navbar.openNavMenu();
+
     await navbar.logout();
 
     await expect(page).toHaveURL(links.mainLink);
@@ -22,9 +21,9 @@ test.describe("Logout Tests", () => {
   test("Prevent application access after logout using browser back navigation", async ({
     page,
   }) => {
-    await openNavMenu(page);
-
     const navbar = new Navbar(page);
+    await navbar.openNavMenu();
+
     await navbar.logout();
 
     await page.goBack();

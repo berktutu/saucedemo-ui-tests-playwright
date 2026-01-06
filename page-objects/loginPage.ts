@@ -1,4 +1,5 @@
 import { Page, Locator } from "@playwright/test";
+import { validUsers } from "../test-data/testData";
 
 export class LoginPage {
   readonly page: Page;
@@ -9,7 +10,7 @@ export class LoginPage {
     this.errorMsg = page.getByTestId("error");
   }
 
-  async login(username: string, password: string) {
+  async attemptLogin(username: string, password: string) {
     await this.page.getByPlaceholder("Username").fill(username);
     await this.page.getByPlaceholder("Password").fill(password);
     await this.page.getByRole("button", { name: "Login" }).click();
