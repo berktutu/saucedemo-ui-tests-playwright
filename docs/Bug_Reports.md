@@ -1,7 +1,14 @@
 # Bug Reports - SauceDemo
 
-# Bug Report Template (Table Format)
-
-| Test Case   | Title                                                         | Summary                                                                                   | Environment                                                         | Steps to Reproduce                                                  | Expected Result                                    | Actual Result                                           | Severity | Priority | Notes / References                         |
-| ----------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------- | -------- | -------- | ------------------------------------------ |
-| TC-LOGIN-09 | UX Issue: Misleading error message when both fields are empty | When both username and password are empty, only the username field shows an error message | Chrome / Windows / Desktop / https://www.saucedemo.com / Playwright | 1. Navigate to login page 2. Leave both fields empty 3. Click Login | Error message should display both fields are empty | Error message displays only the username field is empty | Minor    | Low      | ![Screenshot](screenshots/tc-login-09.png) |
+| Field                  | Details                                                                                                    |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Test Case**          | **TC-LOGIN-09**                                                                                            |
+| **Title**              | UX Issue: Login Page - Only username error message is displayed when both fields are empty                 |
+| **Summary**            | When both username and password are empty, only the username field shows an error message                  |
+| **Environment**        | Chrome / Windows / Desktop<br>URL: (https://www.saucedemo.com)<br>Automation: Playwright                   |
+| **Steps to Reproduce** | 1. Navigate to the login page<br>2. Leave both username and password fields empty<br>3. Click Login button |
+| **Expected Result**    | Error message should indicate that **both username and password fields are empty**                         |
+| **Actual Result**      | Error message indicates **only the username field is empty**                                               |
+| **Severity**           | Minor                                                                                                      |
+| **Priority**           | Low                                                                                                        |
+| **Notes / References** | ![Screenshot](screenshots/tc-login-09.png)                                                                 |
