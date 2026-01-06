@@ -3,14 +3,16 @@ import { Navbar } from "../page-objects/navbar";
 import { links } from "../test-data/testData";
 import { loginAsValidUser } from "../helpers/login-helper";
 
+let navbar: Navbar;
+
 test.beforeEach(async ({ page }) => {
   await page.goto(links.mainLink);
   await loginAsValidUser(page);
+  navbar = new Navbar(page);
 });
 
 test.describe("Logout Tests", () => {
   test("Logout from the application", async ({ page }) => {
-    const navbar = new Navbar(page);
     await navbar.openNavMenu();
 
     await navbar.logout();
@@ -21,7 +23,6 @@ test.describe("Logout Tests", () => {
   test("Prevent application access after logout using browser back navigation", async ({
     page,
   }) => {
-    const navbar = new Navbar(page);
     await navbar.openNavMenu();
 
     await navbar.logout();

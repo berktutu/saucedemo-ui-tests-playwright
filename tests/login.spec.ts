@@ -7,13 +7,15 @@ import {
 } from "../test-data/testData";
 import { LoginPage } from "../page-objects/loginPage";
 
+let loginPage: LoginPage;
+
 test.beforeEach(async ({ page }) => {
   await page.goto(links.mainLink);
+  loginPage = new LoginPage(page);
 });
 
 test.describe("Login Tests", () => {
   test("Login with valid username and invalid password", async ({ page }) => {
-    const loginPage = new LoginPage(page);
     await loginPage.attemptLogin(
       validUsers.standardUser.username,
       invalidUsers.invalidStandardUser.password
@@ -26,7 +28,6 @@ test.describe("Login Tests", () => {
   });
 
   test("Login with invalid username and valid password", async ({ page }) => {
-    const loginPage = new LoginPage(page);
     await loginPage.attemptLogin(
       invalidUsers.invalidStandardUser.username,
       validUsers.standardUser.password
@@ -39,7 +40,6 @@ test.describe("Login Tests", () => {
   });
 
   test("Login with invalid username and invalid password", async ({ page }) => {
-    const loginPage = new LoginPage(page);
     await loginPage.attemptLogin(
       invalidUsers.invalidStandardUser.username,
       invalidUsers.invalidStandardUser.password
@@ -54,7 +54,6 @@ test.describe("Login Tests", () => {
   test("Login with username containing leading and trailing spaces", async ({
     page,
   }) => {
-    const loginPage = new LoginPage(page);
     await loginPage.attemptLogin(
       invalidUsers.whiteSpaceStandartUser.username,
       validUsers.standardUser.password
@@ -69,7 +68,6 @@ test.describe("Login Tests", () => {
   test("Login with password containing leading and trailing spaces", async ({
     page,
   }) => {
-    const loginPage = new LoginPage(page);
     await loginPage.attemptLogin(
       validUsers.standardUser.username,
       invalidUsers.whiteSpaceStandartUser.password
@@ -82,7 +80,6 @@ test.describe("Login Tests", () => {
   });
 
   test("Login with empty username and valid password", async ({ page }) => {
-    const loginPage = new LoginPage(page);
     await loginPage.attemptLogin("", validUsers.standardUser.password);
 
     await expect(page).toHaveURL(links.mainLink);
@@ -92,7 +89,6 @@ test.describe("Login Tests", () => {
   });
 
   test("Login with valid username and empty password", async ({ page }) => {
-    const loginPage = new LoginPage(page);
     await loginPage.attemptLogin(validUsers.standardUser.username, "");
 
     await expect(page).toHaveURL(links.mainLink);
@@ -104,7 +100,6 @@ test.describe("Login Tests", () => {
   test.fixme(
     "Login with empty username and empty password",
     async ({ page }) => {
-      const loginPage = new LoginPage(page);
       await loginPage.attemptLogin("", "");
 
       await expect(page).toHaveURL(links.mainLink);

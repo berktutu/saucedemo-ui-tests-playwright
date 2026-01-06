@@ -50,4 +50,9 @@ export const errorMessageTexts = {
   emptyPasswordMessage: "Epic sadface: Password is required",
   // Not in documentation but acceptable error message to point out UX issue
   emptyFieldsMessage: "Epic sadface: Username and password are required",
-};
+} as const;
+
+export const buttonLabels = {
+  addToCart: "Add to cart",
+  removeFromCart: "Remove",
+} as const;
