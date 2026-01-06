@@ -28,13 +28,13 @@
 
 ### Actual Result
 
-()
+User is logged out and navigated to the login page
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -55,22 +55,22 @@
 
 ### Test Steps
 
-| Step No | Action                        | Expected Result                                                        |
-| ------- | ----------------------------- | ---------------------------------------------------------------------- |
-| 1       | Click the hamburger menu icon | Navigation menu is displayed                                           |
-| 2       | Click the Logout option       | User is logged out and navigated to the login page                     |
-| 3       | Use the browser back button   | Access is not granted to the application and remains on the login page |
+| Step No | Action                        | Expected Result                                                             |
+| ------- | ----------------------------- | --------------------------------------------------------------------------- |
+| 1       | Click the hamburger menu icon | Navigation menu is displayed                                                |
+| 2       | Click the Logout option       | User is logged out and navigated to the login page                          |
+| 3       | Use the browser back button   | Access is not granted to the application and user remains on the login page |
 
 ---
 
 ### Actual Result
 
-()
+Access is not granted to the application and user remains on the login page
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---

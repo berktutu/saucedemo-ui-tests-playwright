@@ -32,13 +32,13 @@
 
 ### Actual Result
 
-()
+Navbar menu opened and closed successfully.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -141,12 +141,12 @@
 
 ### Actual Result
 
-()
+Logout option is visible in the navbar menu.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---

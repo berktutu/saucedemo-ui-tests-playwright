@@ -29,13 +29,13 @@
 
 ### Actual Result
 
-()
+Username and password fields accept user input. User is authenticated and navigated to the Products page
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -66,13 +66,13 @@
 
 ### Actual Result
 
-()
+User remained on the login page and an appropriate error message is displayed. But text and container collision makes the readability hard.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -103,13 +103,13 @@
 
 ### Actual Result
 
-()
+User remained on the login page and an appropriate error message is displayed. But text and container collision makes the readability hard.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -140,13 +140,13 @@
 
 ### Actual Result
 
-()
+User remained on the login page and an appropriate error message is displayed. But text and container collision makes the readability hard.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -179,13 +179,13 @@
 
 ### Actual Result
 
-()
+User remained on the login page and an appropriate error message is displayed. But text and container collision makes the readability hard.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -216,13 +216,13 @@
 
 ### Actual Result
 
-()
+User remained on the login page and an appropriate error message is displayed. But text and container collision makes the readability hard.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -253,13 +253,13 @@
 
 ### Actual Result
 
-()
+User remained on the login page and an appropriate error message is displayed.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -290,13 +290,13 @@
 
 ### Actual Result
 
-()
+User remained on the login page and an appropriate error message is displayed.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -326,13 +326,13 @@
 
 ### Actual Result
 
-()
+User remained on the login page but appropriate error message is not displayed.
 
 ---
 
 ### Status
 
-()
+Fail ❌
 
 ---
 
@@ -361,13 +361,13 @@
 
 ### Actual Result
 
-()
+Entered characters are masked.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
