@@ -1,4 +1,5 @@
 import { Page, Locator } from "@playwright/test";
+import { buttonLabels } from "../test-data/testData";
 
 export class ProductsPage {
   readonly page: Page;
@@ -35,11 +36,24 @@ export class ProductsPage {
 
   async addProductToCart(index = 0) {
     const product = this.getProductByIndex(index);
-    await product.getByRole("button", { name: "Add to cart" }).click();
+    await product.getByRole("button", { name: buttonLabels.addToCart }).click();
   }
 
   async removeProductFromCart(index = 0) {
     const product = this.getProductByIndex(index);
-    await product.getByRole("button", { name: "Remove" }).click();
+    await product
+      .getByRole("button", { name: buttonLabels.removeFromCart })
+      .click();
+  }
+
+  async getFullProductInfo(index = 0) {
+    return {
+      title: (await this.getProductTitle(index).textContent())?.trim(),
+      description: (
+        await this.getProductDescription(index).textContent()
+      )?.trim(),
+      price: (await this.getProductPrice(index).textContent())?.trim(),
+      imgAlt: await this.getProductImage(index).getAttribute("alt"),
+    };
   }
 }
