@@ -40,15 +40,15 @@
 | 25 ✅ | TC-PDETAIL-04  | P1       |
 | 26 ✅ | TC-PDETAIL-05  | P1       |
 | 27 ✅ | TC-PDETAIL-06  | P1       |
-| 28    | TC-SCART-01    | P1       |
-| 29    | TC-SCART-02    | P1       |
-| 30    | TC-SCART-03    | P1       |
-| 31    | TC-SCART-04    | P1       |
-| 32    | TC-SCART-11    | P1       |
-| 33    | TC-SCART-12    | P1       |
-| 34    | TC-SCART-13    | P1       |
-| 35    | TC-SCART-14    | P1       |
-| 36    | TC-SCART-15    | P1       |
+| 28 ✅ | TC-SCART-01    | P1       |
+| 29 ✅ | TC-SCART-02    | P1       |
+| 30 ✅ | TC-SCART-03    | P1       |
+| 31 ✅ | TC-SCART-04    | P1       |
+| 32 ✅ | TC-SCART-11    | P1       |
+| 33 ✅ | TC-SCART-12    | P1       |
+| 34 ✅ | TC-SCART-13    | P1       |
+| 35 ✅ | TC-SCART-14    | P1       |
+| 36 ✅ | TC-SCART-15    | P1       |
 | 37    | TC-SCART-16    | P1       |
 | 38    | TC-SCART-17    | P1       |
 | 39    | TC-SCART-18    | P1       |
