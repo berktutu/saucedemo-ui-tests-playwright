@@ -69,13 +69,13 @@ Pass ✅
 
 ### Actual Result
 
-()
+Successfully navigated to the Products page.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 

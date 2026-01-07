@@ -19,21 +19,21 @@
 
 ### Test Steps
 
-| Step No | Action                                          | Expected Result                                       |
-| ------- | ----------------------------------------------- | ----------------------------------------------------- |
-| 1       | Click the name of the first product in the list | User is navigated to the selected Product detail page |
+| Step No | Action                                          | Expected Result                              |
+| ------- | ----------------------------------------------- | -------------------------------------------- |
+| 1       | Click the name of the first product in the list | User is navigated to the Product detail page |
 
 ---
 
 ### Actual Result
 
-()
+Successfully navigatred to the Product detail page.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -67,13 +67,13 @@
 
 ### Actual Result
 
-()
+Every product detail is visible.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -104,28 +104,28 @@
 
 ### Actual Result
 
-()
+Products match with each other.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
 ### Test Info
 
-| Field            | Description                                               |
-| ---------------- | --------------------------------------------------------- |
-| Test Case ID     | TC-PDETAIL-04                                             |
-| Title            | Verify Add to Cart button behavior on Product detail page |
-| Module / Feature | Product detail                                            |
-| Type             | Functional                                                |
-| Priority         | P1                                                        |
-| Preconditions    | User is logged in and on Products page                    |
-| Test Data        | N/A                                                       |
-| Environment      | https://www.saucedemo.com                                 |
+| Field            | Description                                                                 |
+| ---------------- | --------------------------------------------------------------------------- |
+| Test Case ID     | TC-PDETAIL-04                                                               |
+| Title            | Verify "Add to Cart" button changes back to "Remove" on Product detail page |
+| Module / Feature | Product detail                                                              |
+| Type             | Functional                                                                  |
+| Priority         | P1                                                                          |
+| Preconditions    | User is logged in and on Products page                                      |
+| Test Data        | N/A                                                                         |
+| Environment      | https://www.saucedemo.com                                                   |
 
 ---
 
@@ -140,28 +140,28 @@
 
 ### Actual Result
 
-()
+Button label changes to "Remove" after clicking "Add to Cart" button.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
 ### Test Info
 
-| Field            | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| Test Case ID     | TC-PDETAIL-05                                        |
-| Title            | Verify Remove button behavior on Product detail page |
-| Module / Feature | Product detail                                       |
-| Type             | Functional                                           |
-| Priority         | P1                                                   |
-| Preconditions    | User is logged in and on Products page               |
-| Test Data        | N/A                                                  |
-| Environment      | https://www.saucedemo.com                            |
+| Field            | Description                                                                 |
+| ---------------- | --------------------------------------------------------------------------- |
+| Test Case ID     | TC-PDETAIL-05                                                               |
+| Title            | Verify "Remove" button changes back to "Add to Cart" on Product detail page |
+| Module / Feature | Product detail                                                              |
+| Type             | Functional                                                                  |
+| Priority         | P1                                                                          |
+| Preconditions    | User is logged in and on Products page                                      |
+| Test Data        | N/A                                                                         |
+| Environment      | https://www.saucedemo.com                                                   |
 
 ---
 
@@ -177,13 +177,13 @@
 
 ### Actual Result
 
-()
+Button label changes to "Add to Cart" after clicking "Remove" button.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -214,13 +214,13 @@
 
 ### Actual Result
 
-()
+Successfully navigated to the Products page.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
