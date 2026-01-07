@@ -4,42 +4,42 @@
 
 | Order | Description | Test Case ID   |
 | ----- | ----------- | -------------- |
-| 1     | Smoke       | TC-LOGIN-01    |
-| 2     | Smoke       | TC-PRODUCTS-01 |
-| 3     | Smoke       | TC-SCART-15    |
-| 4     | Smoke       | TC-CHECKOUT-25 |
+| 1 ✅  | Smoke       | TC-LOGIN-01    |
+| 2 ✅  | Smoke       | TC-PRODUCTS-01 |
+| 3 ✅  | Smoke       | TC-SCART-15    |
+| 4 ✅  | Smoke       | TC-CHECKOUT-25 |
 
 ### Test Order
 
 | Order | Test Case ID   | Priority |
 | ----- | -------------- | -------- |
-| 1     | TC-LOGIN-01    | P1       |
-| 2     | TC-LOGIN-02    | P1       |
-| 3     | TC-LOGIN-03    | P1       |
-| 4     | TC-LOGIN-04    | P1       |
-| 5     | TC-LOGIN-05    | P1       |
-| 6     | TC-LOGIN-06    | P1       |
-| 7     | TC-LOGIN-07    | P1       |
-| 8     | TC-LOGIN-08    | P1       |
-| 9     | TC-LOGIN-09    | P1       |
-| 10    | TC-LOGIN-10    | P1       |
-| 11    | TC-NAVBAR-01   | P1       |
-| 12    | TC-NAVBAR-04   | P1       |
-| 13    | TC-LOGOUT-01   | P1       |
-| 14    | TC-LOGOUT-02   | P1       |
-| 15    | TC-PRODUCTS-01 | P1       |
-| 16    | TC-PRODUCTS-02 | P1       |
-| 17    | TC-PRODUCTS-03 | P1       |
-| 18    | TC-PRODUCTS-04 | P1       |
-| 19    | TC-PRODUCTS-05 | P1       |
-| 20    | TC-PRODUCTS-06 | P1       |
-| 21    | TC-PDETAIL-01  | P1       |
-| 22    | TC-NAVBAR-02   | P1       |
-| 23    | TC-PDETAIL-02  | P1       |
-| 24    | TC-PDETAIL-03  | P1       |
-| 25    | TC-PDETAIL-04  | P1       |
-| 26    | TC-PDETAIL-05  | P1       |
-| 27    | TC-PDETAIL-06  | P1       |
+| 1 ✅  | TC-LOGIN-01    | P1       |
+| 2 ✅  | TC-LOGIN-02    | P1       |
+| 3 ✅  | TC-LOGIN-03    | P1       |
+| 4 ✅  | TC-LOGIN-04    | P1       |
+| 5 ✅  | TC-LOGIN-05    | P1       |
+| 6 ✅  | TC-LOGIN-06    | P1       |
+| 7 ✅  | TC-LOGIN-07    | P1       |
+| 8 ✅  | TC-LOGIN-08    | P1       |
+| 9 ❌  | TC-LOGIN-09    | P1       |
+| 10 ✅ | TC-LOGIN-10    | P1       |
+| 11 ✅ | TC-NAVBAR-01   | P1       |
+| 12 ✅ | TC-NAVBAR-04   | P1       |
+| 13 ✅ | TC-LOGOUT-01   | P1       |
+| 14 ✅ | TC-LOGOUT-02   | P1       |
+| 15 ✅ | TC-PRODUCTS-01 | P1       |
+| 16 ✅ | TC-PRODUCTS-02 | P1       |
+| 17 ✅ | TC-PRODUCTS-03 | P1       |
+| 18 ✅ | TC-PRODUCTS-04 | P1       |
+| 19 ✅ | TC-PRODUCTS-05 | P1       |
+| 20 ✅ | TC-PRODUCTS-06 | P1       |
+| 21 ✅ | TC-PDETAIL-01  | P1       |
+| 22 ✅ | TC-NAVBAR-02   | P1       |
+| 23 ✅ | TC-PDETAIL-02  | P1       |
+| 24 ✅ | TC-PDETAIL-03  | P1       |
+| 25 ✅ | TC-PDETAIL-04  | P1       |
+| 26 ✅ | TC-PDETAIL-05  | P1       |
+| 27 ✅ | TC-PDETAIL-06  | P1       |
 | 28    | TC-SCART-01    | P1       |
 | 29    | TC-SCART-02    | P1       |
 | 30    | TC-SCART-03    | P1       |
