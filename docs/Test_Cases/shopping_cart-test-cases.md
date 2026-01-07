@@ -537,13 +537,13 @@
 
 ### Actual Result
 
-()
+Product appears in the cart.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 

@@ -29,13 +29,13 @@
 
 ### Actual Result
 
-()
+Products are displayed on the Products page.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -68,13 +68,13 @@
 
 ### Actual Result
 
-()
+Expected product details and features were displayed.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -103,13 +103,13 @@
 
 ### Actual Result
 
-()
+Button label changes to "Remove" after clicking "Add to Cart" button.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -139,13 +139,13 @@
 
 ### Actual Result
 
-()
+Button labels change to "Remove" after clicking "Add to Cart" buttons.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -175,13 +175,13 @@
 
 ### Actual Result
 
-()
+Button label changes back to "Add to Cart" after clicking "Remove" button.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -212,13 +212,13 @@
 
 ### Actual Result
 
-()
+Button labels change back to "Add to Cart" after clicking "Remove" buttons.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 

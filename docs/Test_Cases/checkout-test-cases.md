@@ -982,13 +982,13 @@
 
 ### Actual Result
 
-()
+User is navigated to expected pages and checkout was completed successfuly with proper notification.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
