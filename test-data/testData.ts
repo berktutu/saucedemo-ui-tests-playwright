@@ -55,4 +55,5 @@ export const errorMessageTexts = {
 export const buttonLabels = {
   addToCart: "Add to cart",
   removeFromCart: "Remove",
+  continueShopping: "Continue Shopping",
 } as const;
