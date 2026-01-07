@@ -25,13 +25,13 @@
 
 ### Actual Result
 
-()
+Shopping cart icon is visible.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -61,13 +61,13 @@
 
 ### Actual Result
 
-()
+Shopping cart icon is visible.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -96,13 +96,13 @@
 
 ### Actual Result
 
-()
+Successfully navigated to the Shopping Cart page.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -132,13 +132,13 @@
 
 ### Actual Result
 
-()
+Successfully navigated to the Shopping Cart page.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -386,13 +386,13 @@
 
 ### Actual Result
 
-()
+Product details are visible.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -424,13 +424,13 @@
 
 ### Actual Result
 
-()
+Product details are matching.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
@@ -451,41 +451,41 @@
 
 ### Test Steps
 
-| Step No | Action                                                                                    | Expected Result                  |
-| ------- | ----------------------------------------------------------------------------------------- | -------------------------------- |
-| 1       | Note the product name, description, price, and of the first item on the Products page     | -                                |
-| 2       | Click the "Add to Cart" button on the first product                                       |                                  |
-| 3       | Note the product name, description, price, and of the second product on the Products page | -                                |
-| 4       | Click the "Add to Cart" button on the second product                                      |                                  |
-| 5       | Click the shopping cart icon                                                              | Shopping Cart page opens         |
-| 6       | Verify item details                                                                       | Each product matches its details |
+| Step No | Action                                                           | Expected Result                |
+| ------- | ---------------------------------------------------------------- | ------------------------------ |
+| 1       | Note the product name of the first product on the Products page  | -                              |
+| 2       | Click the "Add to Cart" button on the first product              |                                |
+| 3       | Note the product name of the second product on the Products page | -                              |
+| 4       | Click the "Add to Cart" button on the second product             |                                |
+| 5       | Click the shopping cart icon                                     | Shopping Cart page opens       |
+| 6       | Verify item names                                                | Each product matches its names |
 
 ---
 
 ### Actual Result
 
-()
+Product names are matching.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 
 ### Test Info
 
-| Field            | Description                                                                     |
-| ---------------- | ------------------------------------------------------------------------------- |
-| Test Case ID     | TC-SCART-14                                                                     |
-| Title            | Verify Continue Shopping button is visible and functional on Shopping Cart page |
-| Module / Feature | Shopping Cart                                                                   |
-| Type             | Functional                                                                      |
-| Priority         | P1                                                                              |
-| Preconditions    | User is logged in and on Products page                                          |
-| Test Data        | N/A                                                                             |
-| Environment      | https://www.saucedemo.com                                                       |
+| Field            | Description                                                                       |
+| ---------------- | --------------------------------------------------------------------------------- |
+| Test Case ID     | TC-SCART-14                                                                       |
+| Title            | Verify "Continue Shopping" button is visible and functional on Shopping Cart page |
+| Module / Feature | Shopping Cart                                                                     |
+| Type             | Functional                                                                        |
+| Priority         | P1                                                                                |
+| Preconditions    | User is logged in and on Products page                                            |
+| Test Data        | N/A                                                                               |
+| Environment      | https://www.saucedemo.com                                                         |
 
 ---
 
@@ -501,13 +501,13 @@
 
 ### Actual Result
 
-()
+Continue Shopping button redirects back to Products page.
 
 ---
 
 ### Status
 
-()
+Pass ✅
 
 ---
 

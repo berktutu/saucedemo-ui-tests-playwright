@@ -39,6 +39,12 @@ export class ProductsPage {
     await product.getByRole("button", { name: buttonLabels.addToCart }).click();
   }
 
+  async addProductsToCart(...indexes: number[]) {
+    for (const index of indexes) {
+      await this.addProductToCart(index);
+    }
+  }
+
   async removeProductFromCart(index = 0) {
     const product = this.getProductByIndex(index);
     await product
